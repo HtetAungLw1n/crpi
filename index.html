@@ -4,9 +4,179 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRPI</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+
+    <style>
+        /* dropdown transition */
+        .dropdown-content {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+    
+        .dropdown:hover .dropdown-content {
+            opacity: 1;
+            visibility: visible;
+        }
+    
+        </style>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            'deep-blue': '#00295C',
+                        },
+
+                        fontFamily: {
+                            'poppins': ['Poppins', 'sans-serif'],
+                            'playfair': ['Playfair Display', 'serif'],
+                        },
+                    },
+                },
+            }
+
+    </script>
+
 </head>
 <body>
+
+    <!-- top nav -->
+    <nav class="w-full h-16 bg-deep-blue text-white">
+        <div class="container h-full mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-4"><img src="./icons/emial-icon.svg" alt="email-cion">
+                Loremmail@gmail.com</div>
+                <div><span class="pr-10">safsdf</span> | <span class="pl-10">safsdf</span></div>
+                <div class="flex items-center space-x-4">
+                    <img src="./icons/pinterest.svg" alt="">
+                    <img src="./icons/instagram.svg" alt="">
+                    <img src="./icons/twitter.svg" alt="">
+                    <img src="./icons/facebook.svg" alt="">
+                </div>
+            </div>
+        </nav>
+    <!-- top nav -->
+
+    <!-- hero section  -->
+    <section class="w-full h-[95vh] relative">
+        <nav class="absolute top-10 left-0 w-full h-16 z-20 flex items-center justify-between px-4">
+            <div class="container mx-auto w-full h-full flex justify-between items-center ">
+                <img src="./images/logo.png" alt="logo">
+                <div class="flex items-center font-poppins h-full ">
+                    <a href="/" class="px-10 text-xl h-full flex items-center hover:bg-white transition duration-500 ease-in-out">Home</a>
+                    <a href="/about-us" class="px-10 text-xl h-full flex items-center hover:bg-white transition duration-500 ease-in-out">About Us</a>
+
+                    <!-- publication navbar with dropdown  -->
+                    <div
+                        class="relative dropdown px-10 text-xl h-full flex items-center hover:bg-white hover:text-black transition duration-500 ease-in-out">
+                        <a href="/programs" class="flex items-center gap-4">
+                            Programs <img src="./icons/arrow-down.svg" alt="arrow-down">
+                        </a>
+                    
+                        <!-- Dropdown content -->
+                        <div class="absolute top-full -right-[298%] w-screen bg-white text-black shadow-lg dropdown-content z-50">
+                            <div class="container mx-auto flex justify-between px-10 py-6">
+                    
+                                <!-- 1 -->
+                                <div>
+                                    <h2 class="font-bold text-lg mb-4">Research & Ideas</h2>
+                                    <ul class="space-y-2">
+                                        <li><a href="/research" class="hover:text-blue-600">Research</a></li>
+                                        <li><a href="/academic-papers" class="hover:text-blue-600">Academic Papers</a></li>
+                                        <li><a href="/analysis" class="hover:text-blue-600">Analysis</a></li>
+                                        <li><a href="/center-holistic-law" class="hover:text-blue-600">Center for Holistic International
+                                                Human Rights Law Praxis</a></li>
+                                        <li><a href="/center-land-policy" class="hover:text-blue-600">Center for Land and Natural Resources
+                                                Policy</a></li>
+                                        <li><a href="/center-democratic-governance" class="hover:text-blue-600">Center for Constitution &
+                                                Democratic Governance</a></li>
+                                    </ul>
+                                </div>
+                    
+                                <!-- 2 -->
+                                <div>
+                                    <h2 class="font-bold text-lg mb-4">Research & Publications</h2>
+                                    <ul class="space-y-2">
+                                        <li><a href="#" class="hover:text-blue-600">Lorem Sub Menu Text</a></li>
+                                        <li><a href="#" class="hover:text-blue-600">Lorem Sub Menu Text</a></li>
+                                        <li><a href="#" class="hover:text-blue-600">Lorem Sub Menu Text</a></li>
+                                        <li><a href="#" class="hover:text-blue-600">Lorem Sub Menu Text</a></li>
+                                    </ul>
+                                </div>
+                    
+                                <!-- 3 -->
+                                <div>
+                                    <h2 class="font-bold text-lg mb-4">Lorem Text</h2>
+                                    <ul class="space-y-2">
+                                        <li><a href="#" class="hover:text-blue-600">Lorem Sub Menu Text</a></li>
+                                        <li><a href="#" class="hover:text-blue-600">Lorem Sub Menu Text</a></li>
+                                        <li><a href="#" class="hover:text-blue-600">Lorem Sub Menu Text</a></li>
+                                        <li><a href="#" class="hover:text-blue-600">Lorem Sub Menu Text</a></li>
+                                    </ul>
+                                </div>
+                    
+                            </div>
+                        </div>
+                    </div>
+  
+                    <a href="/publications" class="px-10 text-xl h-full flex items-center hover:bg-white  transition duration-500 ease-in-out">Publications</a>
+                    <a href="/events" class="px-10 text-xl h-full flex items-center hover:bg-white transition duration-500 ease-in-out">Events</a>
+                    <a href="/contact-us" class="px-10 text-xl h-full flex items-center hover:bg-white transition duration-500 ease-in-out">Contact Us</a>
+                    <div class="px-10 text-xl h-full flex items-center"><img src="./icons/Vector.svg" alt="search"></div>
+
+                    
+                </div>
+            </div>
+            
+        </nav> 
+        <div class="relative h-full overflow-hidden">
+            <div id="slider" class="flex transition-transform duration-500 ease-in-out w-full h-full">
+                <img src="./images/herosection.png" alt="Slide 1" class="w-full flex-shrink-0 object-cover" />
+                <img src="./images/temp.png" alt="Slide 2" class="w-full flex-shrink-0 object-cover" />
+            </div>
+        
+            <!-- Navigation Buttons -->
+            <button id="prev"
+                class="absolute left-5 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-70 text-white px-3 py-1 text-4xl">
+                &#10094;
+            </button>
+            <button id="next"
+                class="absolute right-5 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-70 text-white px-3 py-1 text-4xl">
+                &#10095;
+            </button>  
+        </div>
+
+        <div class="absolute top-56 left-44 bg-white/75 w-[40%] p-16 rounded-3xl font-playfair">
+            <div class="text-4xl font-bold text-balance">Welcome to Center for Research, Policy and Innovation (CRPI)</div>
+            <div class="my-10 line-clamp-5 text-lg text-justify font-semibold">The Center for Research, Policy and Innovation (CRPI) promotes collaborative research and action projects with local
+                researchers, Burmese scholars, international colleagues, and stakeholders engaged in work related to the Burmese
+                American community, Asian Americans, Myanmar, Southeast Asia, and the diaspora communities. The goal of the CRPI is to
+                further innovative research activities, policy, and development-oriented projects that align with BACI’s vision and
+                mission for advocacy, education, and service.
+            </div>
+            <button class=" text-white rounded-full font-poppins px-10 py-4 text-lg hover-button">Read More</button>
+        </div>
+    </section>
+    <!-- hero section  -->
     
+    <script>
+
+        // this is for image slider 
+        const slider = document.getElementById('slider');
+        const slides = slider.children;
+        let currentIndex = 0;
+
+        document.getElementById('prev').addEventListener('click', () => {
+            currentIndex = (currentIndex === 0) ? slides.length - 1 : currentIndex - 1;
+            slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+        });
+
+        document.getElementById('next').addEventListener('click', () => {
+            currentIndex = (currentIndex === slides.length - 1) ? 0 : currentIndex + 1;
+            slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+        });0
+    </script>
 </body>
 </html>
