@@ -36,6 +36,18 @@
   }
 }
 
+/* dropdown transition */
+.dropdown-content {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.3s ease;
+}
+
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+}
+
 a.oklu::before {
   content: "";
   position: absolute;
@@ -59,13 +71,12 @@ a.oklu::before {
   width: 0;
   opacity: 0;
   pointer-events: none;
-  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 0.3s;
-  right: 12rem; /* match your right-48 */
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s;
+  right: 12rem;
   position: absolute;
 }
 .search-input.active {
-  width: 60vw; /* or your desired width */
+  width: 60vw;
   opacity: 1;
   pointer-events: auto;
 }
