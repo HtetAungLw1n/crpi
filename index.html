@@ -61,12 +61,12 @@
           <img src="./images/logo.png" alt="logo" />
 
           <!-- this is for mobile  -->
-          <div class="md:hidden w-10 h-10 cursor-pointer" id="mobile-menu-btn">
+          <div class="lg:hidden w-10 h-10 cursor-pointer" id="mobile-menu-btn">
             <img src="./icons/burger-menu.svg" alt="burger" class="w-full" />
           </div>
 
           <!-- this is for desktop  -->
-          <div class="hidden md:flex items-center font-poppins h-full">
+          <div class="hidden lg:flex items-center font-poppins h-full">
             <a
               href="/"
               class="px-10 text-xl h-full flex items-center hover:bg-white transition duration-500 ease-in-out"
@@ -238,9 +238,9 @@
       </div>
 
       <div
-        class="absolute top-80 md:top-56 md:left-44 bg-deep-blue text-white md:text-black md:bg-white/75 md:w-[40%] p-8 md:p-16 rounded-3xl font-playfair"
+        class="absolute top-52 md:top-56 md:left-20 lg:left-44 bg-deep-blue text-white md:text-black md:bg-white/75 md:w-[80%] lg:w-[40%] p-8 md:p-16 rounded-3xl font-playfair"
       >
-        <div class="text-xl md:text-4xl font-bold text-balance">
+        <div class="text-2xl md:text-4xl font-bold text-balance">
           Welcome to Center for Research, Policy and Innovation (CRPI)
         </div>
         <div
@@ -256,7 +256,7 @@
           mission for advocacy, education, and service.
         </div>
         <button
-          class="rounded-full bg-white/75 text-deep-blue md:text-white md:bg-deep-blue font-poppins px-8 md:px-10 py-4 text-sm md:text-lg hover-button"
+          class="rounded-full bg-white/75 text-deep-blue md:text-white md:bg-deep-blue font-poppins px-8 md:px-10 py-4 text-base md:text-lg hover-button"
         >
           Read More
         </button>
@@ -265,11 +265,13 @@
     <!-- hero section  -->
 
     <!-- Latest News and Programs  -->
-    <section class="w-full py-20 font-playfair">
-      <div class="text-center text-4xl font-playfair font-bold">
+    <section class="w-full px-8 py-10 md:py-20 md:px-0 font-playfair">
+      <div class="text-center text-3xl md:text-4xl font-playfair font-bold">
         Lates News and Programs
       </div>
-      <div class="grid grid-cols-3 gap-20 container mx-auto mt-10">
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 container mx-auto mt-10"
+      >
         <!-- cards  -->
         <a href="/programs-3" class="hover:cursor-pointer">
           <div>
@@ -284,18 +286,18 @@
               <div
                 class="flex items-center gap-4 justify-between text-gray-400"
               >
-                <div class="flex items-center gap-4">
+                <div class="flex items-center gap-4 text-sm md:text-base">
                   <img src="./icons/calendar.svg" alt="calendar" />January
                   1,2023
                 </div>
-                <div class="flex items-center gap-4">
+                <div class="flex items-center gap-4 text-sm md:text-base">
                   <img src="./icons/category.svg" alt="category" />Category Name
                 </div>
               </div>
-              <div class="text-deep-blue text-2xl font-bold">
+              <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2">
                 Summer intensive policy action research project
               </div>
-              <div class="line-clamp-4 text-lg mt-4">
+              <div class="line-clamp-4 text-base md:text-lg mt-4">
                 In this program, researchers and scholars will participate in
                 intensive scientific group research projects primarily utilizing
                 participatory action research (PAR) methodology. In consultation
@@ -319,18 +321,18 @@
               <div
                 class="flex items-center gap-4 justify-between text-gray-400"
               >
-                <div class="flex items-center gap-4">
+                <div class="flex items-center gap-4 text-sm md:text-base">
                   <img src="./icons/calendar.svg" alt="calendar" />January
                   1,2023
                 </div>
-                <div class="flex items-center gap-4">
+                <div class="flex items-center gap-4 text-sm md:text-base">
                   <img src="./icons/category.svg" alt="category" />Category Name
                 </div>
               </div>
-              <div class="text-deep-blue text-2xl font-bold">
+              <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2">
                 Summer intensive policy action research project
               </div>
-              <div class="line-clamp-4 text-lg mt-4">
+              <div class="line-clamp-4 text-base md:text-lg mt-4">
                 In this program, researchers and scholars will participate in
                 intensive scientific group research projects primarily utilizing
                 participatory action research (PAR) methodology. In consultation
@@ -354,18 +356,18 @@
               <div
                 class="flex items-center gap-4 justify-between text-gray-400"
               >
-                <div class="flex items-center gap-4">
+                <div class="flex items-center gap-4 text-sm md:text-base">
                   <img src="./icons/calendar.svg" alt="calendar" />January
                   1,2023
                 </div>
-                <div class="flex items-center gap-4">
+                <div class="flex items-center gap-4 text-sm md:text-base">
                   <img src="./icons/category.svg" alt="category" />Category Name
                 </div>
               </div>
-              <div class="text-deep-blue text-2xl font-bold my-4">
+              <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2">
                 Summer intensive policy action research project
               </div>
-              <div class="line-clamp-4 text-lg">
+              <div class="line-clamp-4 text-base md:text-lg mt-4">
                 In this program, researchers and scholars will participate in
                 intensive scientific group research projects primarily utilizing
                 participatory action research (PAR) methodology. In consultation
@@ -408,12 +410,12 @@
 
     <!-- Publication  -->
     <section
-      class="py-20 font-playfair flex justify-center items-center bg-deep-blue text-white text-center"
+      class="py-20 px-8 md:px-0 font-playfair flex justify-center items-center bg-deep-blue text-white text-center"
     >
       <div class="container">
         <div>
-          <div class="text-4xl">Publications</div>
-          <div class="text-center text-lg mt-8">
+          <div class="text-3xl md:text-4xl">Publications</div>
+          <div class="text-center text-base md:text-lg mt-8">
             Researchers from the Center for Research, Policy and Innovation
             (CRPI) presented their research findings and solution-oriented
             policy action recommendations as the culmination of intensive
@@ -421,7 +423,7 @@
             research topics.
           </div>
         </div>
-        <div class="grid grid-cols-3 gap-8 mt-20">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
           <div class="cursor-pointer">
             <div class="overflow-hidden group">
               <img
@@ -456,7 +458,7 @@
           </div>
         </div>
         <button
-          class="text-white rounded-full bg-[#0063B4] font-poppins px-10 py-4 text-lg hover-button mt-16"
+          class="text-white rounded-full bg-[#0063B4] font-poppins px-10 py-4 text-base md:text-lg hover-button mt-16"
         >
           See More
         </button>
@@ -465,11 +467,13 @@
     <!-- Publication  -->
 
     <!-- upcoming events  -->
-    <section class="py-20 font-playfair flex justify-center items-center">
+    <section
+      class="py-20 px-8 md:px-0 font-playfair flex justify-center items-center"
+    >
       <div class="container">
         <div class="text-center">
-          <div class="text-4xl">Upcoming Events</div>
-          <div class="text-center text-lg mt-8 line-clamp-2">
+          <div class="text-3xl md:text-4xl">Upcoming Events</div>
+          <div class="text-center text-base md:text-lg mt-8 line-clamp-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -479,7 +483,9 @@
             culpa qui officia deserunt mollit anim id est laborum.
           </div>
         </div>
-        <div class="grid grid-cols-4 gap-8 mt-20">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-10 md:gap-8 mt-20"
+        >
           <!-- 1  -->
           <a href="/programs-3" class="hover:cursor-pointer relative">
             <img
@@ -500,17 +506,17 @@
                 <div
                   class="flex items-center gap-4 justify-between text-blue-400"
                 >
-                  <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-4 text-sm md:text-base">
                     <img
                       src="./icons/calendar-blue.svg"
                       alt="calendar"
                     />January 1,2023
                   </div>
-                  <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-4 text-sm md:text-base">
                     <img src="./icons/clock-blue.png" alt="category" />11:30 pm
                   </div>
                 </div>
-                <div class="text-deep-blue text-2xl font-bold mt-4">
+                <div class="text-deep-blue text-xl md:text-2xl font-bold mt-4">
                   Call for Papers – 3rd Spring Flowers International Conference
                   on Myanmar
                 </div>
@@ -538,17 +544,17 @@
                 <div
                   class="flex items-center gap-4 justify-between text-blue-400"
                 >
-                  <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-4 text-sm md:text-base">
                     <img
                       src="./icons/calendar-blue.svg"
                       alt="calendar"
                     />January 1,2023
                   </div>
-                  <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-4 text-sm md:text-base">
                     <img src="./icons/clock-blue.png" alt="category" />11:30 pm
                   </div>
                 </div>
-                <div class="text-deep-blue text-2xl font-bold mt-4">
+                <div class="text-deep-blue text-xl md:text-2xl font-bold mt-4">
                   3rd Spring Flowers International Conference on Myanmar
                 </div>
               </div>
@@ -575,17 +581,17 @@
                 <div
                   class="flex items-center gap-4 justify-between text-blue-400"
                 >
-                  <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-4 text-sm md:text-base">
                     <img
                       src="./icons/calendar-blue.svg"
                       alt="calendar"
                     />January 1,2023
                   </div>
-                  <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-4 text-sm md:text-base">
                     <img src="./icons/clock-blue.png" alt="category" />11:30 pm
                   </div>
                 </div>
-                <div class="text-deep-blue text-2xl font-bold mt-4">
+                <div class="text-deep-blue text-xl md:text-2xl font-bold mt-4">
                   Call for Papers – 3rd Spring Flowers International Conference
                   on Myanmar
                 </div>
@@ -613,17 +619,17 @@
                 <div
                   class="flex items-center gap-4 justify-between text-blue-400"
                 >
-                  <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-4 text-sm md:text-base">
                     <img
                       src="./icons/calendar-blue.svg"
                       alt="calendar"
                     />January 1,2023
                   </div>
-                  <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-4 text-sm md:text-base">
                     <img src="./icons/clock-blue.png" alt="category" />11:30 pm
                   </div>
                 </div>
-                <div class="text-deep-blue text-2xl font-bold mt-4">
+                <div class="text-deep-blue text-xl md:text-2xl font-bold mt-4">
                   3rd Annual Myanmar Research Presentation
                 </div>
               </div>
@@ -633,7 +639,7 @@
 
         <div class="w-full flex justify-center items-center">
           <button
-            class="text-white rounded-full bg-deep-blue font-poppins px-10 py-4 text-lg hover-button mt-16"
+            class="text-white rounded-full bg-deep-blue font-poppins px-10 py-4 text-base md:text-lg hover-button mt-16"
           >
             View All
           </button>
@@ -643,19 +649,19 @@
     <!-- upcoming events  -->
 
     <!-- Newsletter Section -->
-    <section class="bg-deep-blue text-white text-center py-20">
+    <section
+      class="bg-deep-blue text-white text-center py-10 md:py-20 px-8 md:px-0"
+    >
       <div class="container mx-auto">
-        <h2 class="text-4xl font-playfair font-bold">
+        <h2 class="text-2xl md:text-4xl font-playfair font-bold">
           Subscribe to Our Newsletter
         </h2>
-        <p class="text-base mt-8 max-w-xl mx-auto font-playfair">
+        <p class="text-sm md:text-base mt-8 max-w-xl mx-auto font-playfair">
           Subscribe for our weekly newsletter to get latest news, updates and
           amazing offers delivered directly in your inbox.
         </p>
 
-        <div
-          class="mt-8 max-w-5xl mx-auto flex flex-col sm:flex-row items-center"
-        >
+        <div class="mt-8 max-w-5xl mx-auto flex sm:flex-row items-center">
           <input
             type="email"
             placeholder="Enter Your Email"
@@ -671,7 +677,7 @@
     </section>
 
     <!-- Footer Section -->
-    <footer class="bg-deep-blue text-white py-12 px-4">
+    <footer class="bg-deep-blue text-white py-8 md:py-12 px-8 md:px-4">
       <div
         class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-transparent pt-8"
       >
@@ -679,14 +685,28 @@
         <div>
           <h3 class="text-2xl font-bold mb-4">CRPI</h3>
           <ul class="space-y-2 text-base font-playfair">
-            <li><a href="/academic-papers">Academic Papers</a></li>
-            <li><a href="/analysis">Analysis</a></li>
-            <li><a href="/conference">Conference</a></li>
-            <li><a href="/events">Events</a></li>
-            <li><a href="/fellowship">Fellowship</a></li>
-            <li><a href="/programs">Programs</a></li>
-            <li><a href="/scholarships">Scholarships</a></li>
-            <li><a href="/uncategorized">Uncategorized</a></li>
+            <li class="hover:text-slate-300">
+              <a href="/academic-papers">Academic Papers</a>
+            </li>
+            <li class="hover:text-slate-300">
+              <a href="/analysis">Analysis</a>
+            </li>
+            <li class="hover:text-slate-300">
+              <a href="/conference">Conference</a>
+            </li>
+            <li class="hover:text-slate-300"><a href="/events">Events</a></li>
+            <li class="hover:text-slate-300">
+              <a href="/fellowship">Fellowship</a>
+            </li>
+            <li class="hover:text-slate-300">
+              <a href="/programs">Programs</a>
+            </li>
+            <li class="hover:text-slate-300">
+              <a href="/scholarships">Scholarships</a>
+            </li>
+            <li class="hover:text-slate-300">
+              <a href="/uncategorized">Uncategorized</a>
+            </li>
           </ul>
         </div>
 
@@ -694,9 +714,15 @@
         <div>
           <h3 class="text-2xl font-bold mb-4">Conference</h3>
           <ul class="space-y-2 text-base font-playfair">
-            <li><a href="/conference-schedule">Conference Schedule</a></li>
-            <li><a href="/speakers">Speakers</a></li>
-            <li><a href="/registration">Registration</a></li>
+            <li class="hover:text-slate-300">
+              <a href="/conference-schedule">Conference Schedule</a>
+            </li>
+            <li class="hover:text-slate-300">
+              <a href="/speakers">Speakers</a>
+            </li>
+            <li class="hover:text-slate-300">
+              <a href="/registration">Registration</a>
+            </li>
           </ul>
         </div>
 
