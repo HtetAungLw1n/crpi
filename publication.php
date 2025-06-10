@@ -164,8 +164,8 @@
       <div
         class="bg-deep-blue font-playfair pt-40 pb-20 text-white text-center"
       >
-        <div class="text-4xl font-bold mb-2">Programs</div>
-        <div class="text-xl">Home > Programs</div>
+        <div class="text-4xl font-bold mb-2">Publication</div>
+        <div class="text-xl">Home > Publication</div>
       </div>
 </section>
 <!-- hero section  -->
@@ -180,34 +180,23 @@
 
       <!-- frist section programs  -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full lg:w-2/3 h-fit">
+
         <!-- card  -->
-        <a href="/programs-3" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
+        <a href="#" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
           <div>
             <div class="overflow-hidden group">
               <img
-                src="images/lates news and programs/student copy.png"
+                src="./images/book-covers/1.png"
                 alt="photo1"
                 class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale"
               />
             </div>
             <div class="p-4">
-             
-              <div class="flex items-center gap-4 text-sm md:text-base text-gray-400">
-                <img src="./icons/calendar.svg" alt="calendar" />January
-                1,2023
-              </div>
               <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2 group-hover:text-white transition druation-200 ease-in-out">
-                Summer intensive policy action research project
+              CRPI summer 2022
               </div>
               <div class="line-clamp-4 text-base md:text-lg mt-4">
-                In this program, researchers and scholars will participate in
-                intensive scientific group research projects primarily utilizing
-                participatory action research (PAR) methodology. In consultation
-                with the CRPI Directors and under the leadership of research
-                fellows or lead researchers,
-              </div>
-              <div class="flex items-center gap-4 text-sm md:text-base rounded-full mt-4 px-4 py-2 bg-[#F4F4F4] text-deep-blue w-fit">
-                  <img src="./icons/category.svg" alt="category" />Category Name
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
           </div>
@@ -215,33 +204,21 @@
         <!-- card  -->
 
         <!-- card  -->
-        <a href="/programs-3" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
+        <a href="#" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
           <div>
             <div class="overflow-hidden group">
               <img
-                src="images/lates news and programs/portrait-young-man-sitting-table_1048944-23959864.png"
+                src="./images/book-covers/2.png"
                 alt="photo1"
                 class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale"
               />
             </div>
             <div class="p-4">
-             
-              <div class="flex items-center gap-4 text-sm md:text-base text-gray-400">
-                <img src="./icons/calendar.svg" alt="calendar" />January
-                1,2023
-              </div>
               <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2 group-hover:text-white transition druation-200 ease-in-out">
-                Summer intensive policy action research project
+              CRPI summer 2022
               </div>
               <div class="line-clamp-4 text-base md:text-lg mt-4">
-                In this program, researchers and scholars will participate in
-                intensive scientific group research projects primarily utilizing
-                participatory action research (PAR) methodology. In consultation
-                with the CRPI Directors and under the leadership of research
-                fellows or lead researchers,
-              </div>
-              <div class="flex items-center gap-4 text-sm md:text-base rounded-full mt-4 px-4 py-2 bg-[#F4F4F4] text-deep-blue w-fit">
-                  <img src="./icons/category.svg" alt="category" />Category Name
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
           </div>
@@ -249,33 +226,21 @@
         <!-- card  -->
 
         <!-- card  -->
-        <a href="/programs-3" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
+        <a href="#" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
           <div>
             <div class="overflow-hidden group">
               <img
-                src="images/lates news and programs/american-scientific-researcher-with-young-scientist-working-in-modern-laboratory-ai-generative-free-photo 1.png"
+                src="./images/book-covers/3.png"
                 alt="photo1"
                 class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale"
               />
             </div>
             <div class="p-4">
-             
-              <div class="flex items-center gap-4 text-sm md:text-base text-gray-400">
-                <img src="./icons/calendar.svg" alt="calendar" />January
-                1,2023
-              </div>
               <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2 group-hover:text-white transition druation-200 ease-in-out">
-                Summer intensive policy action research project
+              CRPI summer 2022
               </div>
               <div class="line-clamp-4 text-base md:text-lg mt-4">
-                In this program, researchers and scholars will participate in
-                intensive scientific group research projects primarily utilizing
-                participatory action research (PAR) methodology. In consultation
-                with the CRPI Directors and under the leadership of research
-                fellows or lead researchers,
-              </div>
-              <div class="flex items-center gap-4 text-sm md:text-base rounded-full mt-4 px-4 py-2 bg-[#F4F4F4] text-deep-blue w-fit">
-                  <img src="./icons/category.svg" alt="category" />Category Name
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
           </div>
@@ -283,33 +248,21 @@
         <!-- card  -->
 
         <!-- card  -->
-        <a href="/programs-3" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
+        <a href="#" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
           <div>
             <div class="overflow-hidden group">
               <img
-                src="images/lates news and programs/american-scientific-researcher-with-young-scientist-working-in-modern-laboratory-ai-generative-free-photo 1.png"
+                src="./images/book-covers/4.png"
                 alt="photo1"
                 class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale"
               />
             </div>
             <div class="p-4">
-             
-              <div class="flex items-center gap-4 text-sm md:text-base text-gray-400">
-                <img src="./icons/calendar.svg" alt="calendar" />January
-                1,2023
-              </div>
               <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2 group-hover:text-white transition druation-200 ease-in-out">
-                Summer intensive policy action research project
+              CRPI summer 2022
               </div>
               <div class="line-clamp-4 text-base md:text-lg mt-4">
-                In this program, researchers and scholars will participate in
-                intensive scientific group research projects primarily utilizing
-                participatory action research (PAR) methodology. In consultation
-                with the CRPI Directors and under the leadership of research
-                fellows or lead researchers,
-              </div>
-              <div class="flex items-center gap-4 text-sm md:text-base rounded-full mt-4 px-4 py-2 bg-[#F4F4F4] text-deep-blue w-fit">
-                  <img src="./icons/category.svg" alt="category" />Category Name
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
           </div>
@@ -317,33 +270,21 @@
         <!-- card  -->
 
         <!-- card  -->
-        <a href="/programs-3" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
+        <a href="#" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
           <div>
             <div class="overflow-hidden group">
               <img
-                src="images/lates news and programs/portrait-young-man-sitting-table_1048944-23959864.png"
+                src="./images/book-covers/5.png"
                 alt="photo1"
                 class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale"
               />
             </div>
             <div class="p-4">
-             
-              <div class="flex items-center gap-4 text-sm md:text-base text-gray-400">
-                <img src="./icons/calendar.svg" alt="calendar" />January
-                1,2023
-              </div>
               <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2 group-hover:text-white transition druation-200 ease-in-out">
-                Summer intensive policy action research project
+              CRPI summer 2022
               </div>
               <div class="line-clamp-4 text-base md:text-lg mt-4">
-                In this program, researchers and scholars will participate in
-                intensive scientific group research projects primarily utilizing
-                participatory action research (PAR) methodology. In consultation
-                with the CRPI Directors and under the leadership of research
-                fellows or lead researchers,
-              </div>
-              <div class="flex items-center gap-4 text-sm md:text-base rounded-full mt-4 px-4 py-2 bg-[#F4F4F4] text-deep-blue w-fit">
-                  <img src="./icons/category.svg" alt="category" />Category Name
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
           </div>
@@ -351,33 +292,21 @@
         <!-- card  -->
 
         <!-- card  -->
-        <a href="/programs-3" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
+        <a href="#" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
           <div>
             <div class="overflow-hidden group">
               <img
-                src="images/lates news and programs/american-scientific-researcher-with-young-scientist-working-in-modern-laboratory-ai-generative-free-photo 1.png"
+                src="./images/book-covers/6.png"
                 alt="photo1"
                 class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale"
               />
             </div>
             <div class="p-4">
-             
-              <div class="flex items-center gap-4 text-sm md:text-base text-gray-400">
-                <img src="./icons/calendar.svg" alt="calendar" />January
-                1,2023
-              </div>
               <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2 group-hover:text-white transition druation-200 ease-in-out">
-                Summer intensive policy action research project
+              CRPI summer 2022
               </div>
               <div class="line-clamp-4 text-base md:text-lg mt-4">
-                In this program, researchers and scholars will participate in
-                intensive scientific group research projects primarily utilizing
-                participatory action research (PAR) methodology. In consultation
-                with the CRPI Directors and under the leadership of research
-                fellows or lead researchers,
-              </div>
-              <div class="flex items-center gap-4 text-sm md:text-base rounded-full mt-4 px-4 py-2 bg-[#F4F4F4] text-deep-blue w-fit">
-                  <img src="./icons/category.svg" alt="category" />Category Name
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
           </div>
@@ -385,33 +314,21 @@
         <!-- card  -->
 
         <!-- card  -->
-        <a href="/programs-3" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
+        <a href="#" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
           <div>
             <div class="overflow-hidden group">
               <img
-                src="images/lates news and programs/student copy.png"
+                src="./images/book-covers/1.png"
                 alt="photo1"
                 class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale"
               />
             </div>
             <div class="p-4">
-             
-              <div class="flex items-center gap-4 text-sm md:text-base text-gray-400">
-                <img src="./icons/calendar.svg" alt="calendar" />January
-                1,2023
-              </div>
               <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2 group-hover:text-white transition druation-200 ease-in-out">
-                Summer intensive policy action research project
+              CRPI summer 2022
               </div>
               <div class="line-clamp-4 text-base md:text-lg mt-4">
-                In this program, researchers and scholars will participate in
-                intensive scientific group research projects primarily utilizing
-                participatory action research (PAR) methodology. In consultation
-                with the CRPI Directors and under the leadership of research
-                fellows or lead researchers,
-              </div>
-              <div class="flex items-center gap-4 text-sm md:text-base rounded-full mt-4 px-4 py-2 bg-[#F4F4F4] text-deep-blue w-fit">
-                  <img src="./icons/category.svg" alt="category" />Category Name
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
           </div>
@@ -419,33 +336,21 @@
         <!-- card  -->
 
         <!-- card  -->
-        <a href="/programs-3" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
+        <a href="#" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
           <div>
             <div class="overflow-hidden group">
               <img
-                src="images/lates news and programs/student copy.png"
+                src="./images/book-covers/2.png"
                 alt="photo1"
                 class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale"
               />
             </div>
             <div class="p-4">
-             
-              <div class="flex items-center gap-4 text-sm md:text-base text-gray-400">
-                <img src="./icons/calendar.svg" alt="calendar" />January
-                1,2023
-              </div>
               <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2 group-hover:text-white transition druation-200 ease-in-out">
-                Summer intensive policy action research project
+              CRPI summer 2022
               </div>
               <div class="line-clamp-4 text-base md:text-lg mt-4">
-                In this program, researchers and scholars will participate in
-                intensive scientific group research projects primarily utilizing
-                participatory action research (PAR) methodology. In consultation
-                with the CRPI Directors and under the leadership of research
-                fellows or lead researchers,
-              </div>
-              <div class="flex items-center gap-4 text-sm md:text-base rounded-full mt-4 px-4 py-2 bg-[#F4F4F4] text-deep-blue w-fit">
-                  <img src="./icons/category.svg" alt="category" />Category Name
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
           </div>
@@ -453,33 +358,21 @@
         <!-- card  -->
 
         <!-- card  -->
-        <a href="/programs-3" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
+        <a href="#" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
           <div>
             <div class="overflow-hidden group">
               <img
-                src="images/lates news and programs/american-scientific-researcher-with-young-scientist-working-in-modern-laboratory-ai-generative-free-photo 1.png"
+                src="./images/book-covers/3.png"
                 alt="photo1"
                 class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale"
               />
             </div>
             <div class="p-4">
-             
-              <div class="flex items-center gap-4 text-sm md:text-base text-gray-400">
-                <img src="./icons/calendar.svg" alt="calendar" />January
-                1,2023
-              </div>
               <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2 group-hover:text-white transition druation-200 ease-in-out">
-                Summer intensive policy action research project
+              CRPI summer 2022
               </div>
               <div class="line-clamp-4 text-base md:text-lg mt-4">
-                In this program, researchers and scholars will participate in
-                intensive scientific group research projects primarily utilizing
-                participatory action research (PAR) methodology. In consultation
-                with the CRPI Directors and under the leadership of research
-                fellows or lead researchers,
-              </div>
-              <div class="flex items-center gap-4 text-sm md:text-base rounded-full mt-4 px-4 py-2 bg-[#F4F4F4] text-deep-blue w-fit">
-                  <img src="./icons/category.svg" alt="category" />Category Name
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
           </div>
@@ -487,33 +380,21 @@
         <!-- card  -->
 
         <!-- card  -->
-        <a href="/programs-3" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
+        <a href="#" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
           <div>
             <div class="overflow-hidden group">
               <img
-                src="images/lates news and programs/student copy.png"
+                src="./images/book-covers/4.png"
                 alt="photo1"
                 class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale"
               />
             </div>
             <div class="p-4">
-             
-              <div class="flex items-center gap-4 text-sm md:text-base text-gray-400">
-                <img src="./icons/calendar.svg" alt="calendar" />January
-                1,2023
-              </div>
               <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2 group-hover:text-white transition druation-200 ease-in-out">
-                Summer intensive policy action research project
+              CRPI summer 2022
               </div>
               <div class="line-clamp-4 text-base md:text-lg mt-4">
-                In this program, researchers and scholars will participate in
-                intensive scientific group research projects primarily utilizing
-                participatory action research (PAR) methodology. In consultation
-                with the CRPI Directors and under the leadership of research
-                fellows or lead researchers,
-              </div>
-              <div class="flex items-center gap-4 text-sm md:text-base rounded-full mt-4 px-4 py-2 bg-[#F4F4F4] text-deep-blue w-fit">
-                  <img src="./icons/category.svg" alt="category" />Category Name
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
           </div>
@@ -521,38 +402,49 @@
         <!-- card  -->
 
         <!-- card  -->
-        <a href="/programs-3" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
+        <a href="#" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
           <div>
             <div class="overflow-hidden group">
               <img
-                src="images/lates news and programs/american-scientific-researcher-with-young-scientist-working-in-modern-laboratory-ai-generative-free-photo 1.png"
+                src="./images/book-covers/5.png"
                 alt="photo1"
                 class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale"
               />
             </div>
             <div class="p-4">
-             
-              <div class="flex items-center gap-4 text-sm md:text-base text-gray-400">
-                <img src="./icons/calendar.svg" alt="calendar" />January
-                1,2023
-              </div>
               <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2 group-hover:text-white transition druation-200 ease-in-out">
-                Summer intensive policy action research project
+              CRPI summer 2022
               </div>
               <div class="line-clamp-4 text-base md:text-lg mt-4">
-                In this program, researchers and scholars will participate in
-                intensive scientific group research projects primarily utilizing
-                participatory action research (PAR) methodology. In consultation
-                with the CRPI Directors and under the leadership of research
-                fellows or lead researchers,
-              </div>
-              <div class="flex items-center gap-4 text-sm md:text-base rounded-full mt-4 px-4 py-2 bg-[#F4F4F4] text-deep-blue w-fit">
-                  <img src="./icons/category.svg" alt="category" />Category Name
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
           </div>
         </a>
         <!-- card  -->
+
+        <!-- card  -->
+        <a href="#" class="group hover:cursor-pointer shadow-md font-playfair hover:bg-deep-blue hover:text-white transition duration-200 ease-in-out">
+          <div>
+            <div class="overflow-hidden group">
+              <img
+                src="./images/book-covers/6.png"
+                alt="photo1"
+                class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale"
+              />
+            </div>
+            <div class="p-4">
+              <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2 group-hover:text-white transition druation-200 ease-in-out">
+              CRPI summer 2022
+              </div>
+              <div class="line-clamp-4 text-base md:text-lg mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- card  -->
+
       </div>
       <!-- frist section programs  -->
 
@@ -563,13 +455,13 @@
         <!-- search  -->
        <?php include './components/search.php' ?>
         
-        <!-- latest news & programs -->
+        <!-- Latest Publication -->
         <div class="shadow-lg border-gray-200 border rounded-lg px-4 py-8 font-playfair mt-6">
-          <div class="text-2xl font-bold mb-4">Latest News & Programs</div>
+          <div class="text-2xl font-bold mb-4">Latest Publication</div>
           <img src="./images/two-line.png" alt="two-line">
           <!-- card  -->
-          <div class="flex justify-center items-start h-26 gap-4 mt-4">
-            <img class="w-1/3 h-full object-cover" src="./images/lates news and programs/student copy.png" alt="">
+          <div class="flex justify-center items-center h-26 gap-4 mt-4">
+            <img class="w-1/3 h-full object-cover" src="./images/book-covers/1.png" alt="">
             <div class="w-2/3 flex flex-col gap-2 h-full">
               <div class="text-xl font-semibold">CRPI summer 2022 Policy Action</div>
               <div class="flex items-center gap-2">
@@ -579,8 +471,8 @@
             </div>
           </div>
 
-          <div class="flex justify-center items-start h-26 gap-4 mt-4">
-            <img class="w-1/3 h-full object-cover" src="./images/lates news and programs/portrait-young-man-sitting-table_1048944-23959864.png" alt="">
+          <div class="flex justify-center items-center h-26 gap-4 mt-4">
+            <img class="w-1/3 h-full object-cover" src="./images/book-covers/2.png" alt="">
             <div class="w-2/3 flex flex-col gap-2 h-full">
               <div class="text-xl font-semibold">CRPI summer 2022 Policy Action</div>
               <div class="flex items-center gap-2">
@@ -590,8 +482,8 @@
             </div>
           </div>
 
-          <div class="flex justify-center items-start h-26 gap-4 mt-4">
-            <img class="w-1/3 h-full object-cover" src="./images/lates news and programs/american-scientific-researcher-with-young-scientist-working-in-modern-laboratory-ai-generative-free-photo 1.png" alt="">
+          <div class="flex justify-center items-center h-26 gap-4 mt-4">
+            <img class="w-1/3 h-full object-cover" src="./images/book-covers/3.png" alt="">
             <div class="w-2/3 flex flex-col gap-2 h-full">
               <div class="text-xl font-semibold">CRPI summer 2022 Policy Action</div>
               <div class="flex items-center gap-2">
@@ -601,16 +493,6 @@
             </div>
           </div>
 
-          <div class="flex justify-center items-start h-26 gap-4 mt-4">
-            <img class="w-1/3 h-full object-cover" src="./images/lates news and programs/student copy.png" alt="">
-            <div class="w-2/3 flex flex-col gap-2 h-full">
-              <div class="text-xl font-semibold">CRPI summer 2022 Policy Action</div>
-              <div class="flex items-center gap-2">
-                <img src="./icons/calendar.svg" alt="">
-                <div class="text-gray-500">March 10, 2025</div>
-              </div>
-            </div>
-          </div>
         </div>
 
         <!-- Categories -->
@@ -627,13 +509,13 @@
 
     <!-- second section mobile -->
     <div class="w-full lg:hidden">
-      <!-- latest news & programs -->
+      <!-- Latest Publication -->
       <div class="shadow-lg border-gray-200 border rounded-lg px-4 py-8 font-playfair mt-6">
-          <div class="text-2xl font-bold mb-4">Latest News & Programs</div>
+          <div class="text-2xl font-bold mb-4">Latest Publication</div>
           <img src="./images/two-line.png" alt="two-line">
           <!-- card  -->
-          <div class="flex justify-center items-start h-26 gap-4 mt-4">
-            <img class="w-1/3 h-full object-cover" src="./images/lates news and programs/student copy.png" alt="">
+          <div class="flex justify-center items-center h-26 gap-4 mt-4">
+            <img class="w-1/3 h-full object-cover" src="./images/book-covers/1.png" alt="">
             <div class="w-2/3 flex flex-col gap-2 h-full">
               <div class="text-xl font-semibold">CRPI summer 2022 Policy Action</div>
               <div class="flex items-center gap-2">
@@ -643,8 +525,8 @@
             </div>
           </div>
 
-          <div class="flex justify-center items-start h-26 gap-4 mt-4">
-            <img class="w-1/3 h-full object-cover" src="./images/lates news and programs/portrait-young-man-sitting-table_1048944-23959864.png" alt="">
+          <div class="flex justify-center items-center h-26 gap-4 mt-4">
+            <img class="w-1/3 h-full object-cover" src="./images/book-covers/2.png" alt="">
             <div class="w-2/3 flex flex-col gap-2 h-full">
               <div class="text-xl font-semibold">CRPI summer 2022 Policy Action</div>
               <div class="flex items-center gap-2">
@@ -654,8 +536,8 @@
             </div>
           </div>
 
-          <div class="flex justify-center items-start h-26 gap-4 mt-4">
-            <img class="w-1/3 h-full object-cover" src="./images/lates news and programs/american-scientific-researcher-with-young-scientist-working-in-modern-laboratory-ai-generative-free-photo 1.png" alt="">
+          <div class="flex justify-center items-center h-26 gap-4 mt-4">
+            <img class="w-1/3 h-full object-cover" src="./images/book-covers/3.png" alt="">
             <div class="w-2/3 flex flex-col gap-2 h-full">
               <div class="text-xl font-semibold">CRPI summer 2022 Policy Action</div>
               <div class="flex items-center gap-2">
@@ -665,16 +547,6 @@
             </div>
           </div>
 
-          <div class="flex justify-center items-start h-26 gap-4 mt-4">
-            <img class="w-1/3 h-full object-cover" src="./images/lates news and programs/student copy.png" alt="">
-            <div class="w-2/3 flex flex-col gap-2 h-full">
-              <div class="text-xl font-semibold">CRPI summer 2022 Policy Action</div>
-              <div class="flex items-center gap-2">
-                <img src="./icons/calendar.svg" alt="">
-                <div class="text-gray-500">March 10, 2025</div>
-              </div>
-            </div>
-          </div>
         </div>
 
         <!-- Categories -->
@@ -687,5 +559,7 @@
     
 </section>
 <!-- main  -->
+
+
 
 <?php include './templates/footer.php'; ?>
