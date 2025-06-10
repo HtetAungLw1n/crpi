@@ -123,7 +123,7 @@
             <div
               class="dropdown px-10 text-xl h-full flex items-center hover:bg-white hover:text-black transition duration-500 ease-in-out"
             >
-              <a href="/programs" class="flex items-center gap-4">
+              <a href="/publication.php" class="flex items-center gap-4">
                 Publications
                 <img src="./icons/arrow-down.svg" alt="arrow-down" />
               </a>
@@ -165,12 +165,12 @@
             </div>
 
             <a
-              href="/events"
+              href="/events.php"
               class="px-10 text-xl h-full flex items-center hover:bg-white transition duration-500 ease-in-out"
               >Events</a
             >
             <a
-              href="/contact-us"
+              href="/contact-us.php"
               class="px-10 text-xl h-full flex items-center hover:bg-white transition duration-500 ease-in-out"
               >Contact Us</a
             >
@@ -758,22 +758,22 @@
           &times;
         </button>
         <a href="/" class="text-xl py-2 border-b border-gray-200">Home</a>
-        <a href="/about-us" class="text-xl py-2 border-b border-gray-200"
+        <a href="./about-us.php" class="text-xl py-2 border-b border-gray-200"
           >About Us</a
         >
         <!-- Programs Dropdown (mobile) -->
         <div>
-          <button
+          <a href="./programs.php"
             class="flex items-center justify-between w-full text-xl py-2 border-b border-gray-200"
-            id="mobile-programs-toggle"
+          
           >
             Programs
             <img
               src="./icons/arrow-down.svg"
               alt="arrow-down"
-              class="ml-2 w-5 h-5"
+              class="ml-2 w-5 h-5"  id="mobile-programs-toggle"
             />
-          </button>
+          </a>
           <div
             id="mobile-programs-dropdown"
             class="pl-4 mt-2 hidden flex-col gap-4"
@@ -800,17 +800,16 @@
         </div>
         <!-- Publications Dropdown (mobile) -->
         <div>
-          <button
+          <a href="/publication.php"
             class="flex items-center justify-between w-full text-xl py-2 border-b border-gray-200"
-            id="mobile-publications-toggle"
           >
             Publications
             <img
               src="./icons/arrow-down.svg"
               alt="arrow-down"
-              class="ml-2 w-5 h-5"
+              class="ml-2 w-5 h-5"  id="mobile-publications-toggle"
             />
-          </button>
+          </a>
           <div
             id="mobile-publications-dropdown"
             class="pl-4 mt-2 hidden flex-col gap-4"
@@ -835,10 +834,10 @@
             >
           </div>
         </div>
-        <a href="/events" class="text-xl py-2 border-b border-gray-200"
+        <a href="/events.php" class="text-xl py-2 border-b border-gray-200"
           >Events</a
         >
-        <a href="/contact-us" class="text-xl py-2 border-b border-gray-200"
+        <a href="/contact-us.php" class="text-xl py-2 border-b border-gray-200"
           >Contact Us</a
         >
         <!-- Social icons -->

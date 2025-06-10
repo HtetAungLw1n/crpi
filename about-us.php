@@ -80,7 +80,7 @@
             <div
               class="dropdown px-10 text-xl h-full flex items-center hover:bg-white hover:text-black transition duration-500 ease-in-out"
             >
-              <a href="/programs" class="flex items-center gap-4">
+              <a href="/publication.php" class="flex items-center gap-4">
                 Publications
                 <img src="./icons/arrow-down.svg" alt="arrow-down" />
               </a>
@@ -122,12 +122,12 @@
             </div>
 
             <a
-              href="/events"
+              href="/events.php"
               class="px-10 text-xl h-full flex items-center hover:bg-white hover:text-black transition duration-500 ease-in-out"
               >Events</a
             >
             <a
-              href="/contact-us"
+              href="/contact-us.php"
               class="px-10 text-xl h-full flex items-center hover:bg-white hover:text-black transition duration-500 ease-in-out"
               >Contact Us</a
             >
