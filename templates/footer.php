@@ -121,6 +121,7 @@
     </div>
 
     <script src="../assets/js/search.js"></script>
+    <script src="../assets/js/toggleCalendar.js"></script>
     <script src="../assets/js/burger-menu.js"></script>
     </body>
 
