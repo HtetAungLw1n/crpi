@@ -109,22 +109,30 @@
     </nav>
 
     <div class="bg-deep-blue font-playfair pt-40 pb-20 text-white text-center">
-        <div class="text-4xl font-bold mb-2">Programs</div>
-        <div class="text-xl">Home > Programs > Research Fellow – Center for Research, Policy and Innovation (CRPI)
-        </div>
+        <div class="text-4xl font-bold mb-2">Publication</div>
+        <div class="text-xl">Home > Publication > Publication - Center for Research, Policy and Innovation (CRPI)</div>
     </div>
 </section>
 <!-- hero section  -->
 
 <!-- main  -->
 <section class="container mx-auto px-4 py-20">
-    <img src="./images/scientific-big.png" alt="img" class="w-full">
+    <div class="w-full relative">
+        <img src="./images/slider2.png" alt="img" class="w-full opacity-70">
+        <div
+            class="w-full lg:w-[50%] bg-deep-blue px-8 py-2 absolute top-0 lg:top-10 left-1/2 transform -translate-x-1/2 text-md md:text-lg lg:text-4xl text-white font-bold font-playfair">
+            Publication Title – Center for Research, Policy and Innovation (CRPI)
+        </div>
+        <img src="./images/ebook-reader-books.png" alt="book"
+            class="absolute h-[50%] top-20 lg:top-60 left-1/2 transform -translate-x-1/2">
+    </div>
+
 
     <!-- first text-area  -->
     <div>
-        <div class="text-xl lg:text-4xl font-bold font-playfair my-8">Research Fellow - Center for Research, Policy and
-            Innovation
-            (CRPI)</div>
+        <div class="text-xl lg:text-4xl font-bold font-playfair my-8">Publication Title - Center for Research, Policy
+            and
+            Innovation (CRPI)</div>
 
         <!-- date and time -->
         <div class="flex items-center justify-start text-deep-blue">
@@ -139,31 +147,10 @@
                     src="./icons/category-name.svg" alt="category">Category Name</div>
         </div>
 
-        <!-- status  -->
-        <div class="bg-[#D5D5D5] p-8 rounded-lg w-full mt-8 space-y-2">
-            <div class="flex lg:items-center items-start">
-                <div class="w-1/2 lg:w-52">Hours</div>
-                <div class="w-1/2">: Full-time or part-time</div>
-            </div>
-            <div class="flex lg:items-center items-start">
-                <div class="w-1/2 lg:w-52">Duration</div>
-                <div class="w-1/2">: Summer 2023 (With the possibility of continuation to Fall 2023 and beyond)</div>
-            </div>
-            <div class="flex lg:items-center items-start">
-                <div class="w-1/2 lg:w-52">Pay</div>
-                <div class="w-1/2">: Stipend; negotiable</div>
-            </div>
-            <div class="flex lg:items-center items-start">
-                <div class="w-1/2 lg:w-52">Project Primary Site</div>
-                <div class="w-1/2">: Virtual</div>
-            </div>
-
-        </div>
-
     </div>
 
     <!-- second text-area  -->
-    <div class="font-playfair">
+    <div class="font-playfair border-b-2 border-gray-300 pb-16">
         <!-- paragraph -->
         <div class="mt-8">
             <div class="indent-4">
@@ -188,7 +175,7 @@
 
         <!-- qualifications -->
         <div>
-            <div class="text-[#5273FA] my-6 mt-10 text-2xl font-semibold">Qualifications</div>
+            <div class="text-[#5273FA] my-6 mt-10 text-2xl font-semibold">Key Features</div>
             <ul class="list-outside list-disc pl-6">
                 <li>Current faculty member at a University, Graduate student, doctoral degree, advanced or terminal
                     degree preferred (College Senior may be considered).</li>
@@ -206,144 +193,37 @@
             </ul>
         </div>
 
-        <!-- responsibilites -->
-        <div>
-            <div class="text-[#5273FA] my-6 mt-10 text-2xl font-semibold">Responsibilites</div>
-            <ul class="list-outside list-disc ml-4">
-                <li>Complete orientation and training (will take place during the first week of the program)</li>
-                <li>Successfully implement the program curriculum, leading the research process from beginning to end
-                </li>
-                <li>Introduce and explain key concepts in research methodology, making sure students or project team
-                    members fully grasp each step and why it matters</li>
-                <li>Lead 4-7 or more students/scholars as the groups engages in research projects, helping each student
-                    and team overcome challenges as they arise, and ensuring the active participation of all group
-                    members in the research and the implementation process of the project</li>
-                <li>Attend staff or larger groups meeting, prepare meeting notes</li>
-                <li>Closely work with Program Assistants and Interns</li>
-                <li>Fully document daily reflections, observations, and program activities</li>
-                <li>Prepare bi-weekly reports to Project Director or Supervisor</li>
-                <li>Participate in program evaluation</li>
-                <li>Assume responsibilities as assigned</li>
-            </ul>
-        </div>
-
-        <!-- Deliverables -->
-        <div>
-            <div class="text-[#5273FA] my-6 mt-10 text-2xl font-semibold">Deliverables</div>
-            <ul class="list-outside list-disc ml-4">
-                <li>20-30 pages long academically written paper with policy and action recommendations</li>
-                <li>Executive Summary of the project that outlines the main findings of the study and solution
-                    recommendations
-                </li>
-                <li>PowerPoint slides for final research/project presentation</li>
-                <li>Raw data and all project related materials. E.g. survey forms, articles, journals, etc.</li>
-            </ul>
-        </div>
-
-        <div class="mt-8">
-            Interested candidates should submit a resume and a one-page cover letter to Human Resources
-            at HR@thebaci.org. Applications will be reviewed immediately.
-        </div>
     </div>
 
-    <?php include './templates/share-news-programs.php' ?>
-
-    <!-- Related News & Programs -->
+    <!-- Related Publication -->
     <div>
-        <div class="text-4xl font-bold font-playfair mt-8">Related News & Programs</div>
+        <div class="text-4xl font-bold font-playfair mt-8">Related Publication</div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-8">
-            <a href="/programs-3" class="hover:cursor-pointer shadow-lg">
-                <div>
-                    <div class="overflow-hidden group">
-                        <img src="images/lates news and programs/american-scientific-researcher-with-young-scientist-working-in-modern-laboratory-ai-generative-free-photo 1.png"
-                            alt="photo1"
-                            class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale" />
-                    </div>
-                    <div class=" p-4">
-                        <div class="flex items-center gap-4 justify-between text-gray-400">
-                            <div class="flex items-center gap-4 text-sm md:text-base">
-                                <img src="./icons/calendar.svg" alt="calendar" />January
-                                1,2023
-                            </div>
-                            <div class="flex items-center gap-4 text-sm md:text-base">
-                                <img src="./icons/category.svg" alt="category" />Category Name
-                            </div>
-                        </div>
-                        <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2">
-                            Summer intensive policy action research project
-                        </div>
-                        <div class="line-clamp-4 text-base md:text-lg mt-4">
-                            In this program, researchers and scholars will participate in
-                            intensive scientific group research projects primarily utilizing
-                            participatory action research (PAR) methodology. In consultation
-                            with the CRPI Directors and under the leadership of research
-                            fellows or lead researchers,
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="/programs-3" class="hover:cursor-pointer shadow-lg">
-                <div>
-                    <div class="overflow-hidden group">
-                        <img src="images/lates news and programs/american-scientific-researcher-with-young-scientist-working-in-modern-laboratory-ai-generative-free-photo 1.png"
-                            alt="photo1"
-                            class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale" />
-                    </div>
-                    <div class=" p-4">
-                        <div class="flex items-center gap-4 justify-between text-gray-400">
-                            <div class="flex items-center gap-4 text-sm md:text-base">
-                                <img src="./icons/calendar.svg" alt="calendar" />January
-                                1,2023
-                            </div>
-                            <div class="flex items-center gap-4 text-sm md:text-base">
-                                <img src="./icons/category.svg" alt="category" />Category Name
-                            </div>
-                        </div>
-                        <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2">
-                            Summer intensive policy action research project
-                        </div>
-                        <div class="line-clamp-4 text-base md:text-lg mt-4">
-                            In this program, researchers and scholars will participate in
-                            intensive scientific group research projects primarily utilizing
-                            participatory action research (PAR) methodology. In consultation
-                            with the CRPI Directors and under the leadership of research
-                            fellows or lead researchers,
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="/programs-3" class="hover:cursor-pointer shadow-lg">
-                <div>
-                    <div class="overflow-hidden group">
-                        <img src="images/lates news and programs/american-scientific-researcher-with-young-scientist-working-in-modern-laboratory-ai-generative-free-photo 1.png"
-                            alt="photo1"
-                            class="w-full transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale" />
-                    </div>
-                    <div class=" p-4">
-                        <div class="flex items-center gap-4 justify-between text-gray-400">
-                            <div class="flex items-center gap-4 text-sm md:text-base">
-                                <img src="./icons/calendar.svg" alt="calendar" />January
-                                1,2023
-                            </div>
-                            <div class="flex items-center gap-4 text-sm md:text-base">
-                                <img src="./icons/category.svg" alt="category" />Category Name
-                            </div>
-                        </div>
-                        <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2">
-                            Summer intensive policy action research project
-                        </div>
-                        <div class="line-clamp-4 text-base md:text-lg mt-4">
-                            In this program, researchers and scholars will participate in
-                            intensive scientific group research projects primarily utilizing
-                            participatory action research (PAR) methodology. In consultation
-                            with the CRPI Directors and under the leadership of research
-                            fellows or lead researchers,
-                        </div>
-                    </div>
-                </div>
-            </a>
 
+            <div class="cursor-pointer">
+                <div class="overflow-hidden group">
+                    <img src="./images/publications/publications-one.png" alt="one"
+                        class="transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale" />
+                </div>
+                <div class="mt-8 text-2xl w-full text-center font-semibold">CRPI summer 2022</div>
+            </div>
+
+            <div class="cursor-pointer">
+                <div class="overflow-hidden group">
+                    <img src="./images/publications/publications-one.png" alt="one"
+                        class="transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale" />
+                </div>
+                <div class="mt-8 text-2xl w-full text-center font-semibold">CRPI summer 2022</div>
+            </div>
+
+            <div class="cursor-pointer">
+                <div class="overflow-hidden group">
+                    <img src="./images/publications/publications-one.png" alt="one"
+                        class="transform transition-transform duration-500 ease-in-out group-hover:scale-110 filter group-hover:grayscale" />
+                </div>
+                <div class="mt-8 text-2xl w-full text-center font-semibold">CRPI summer 2022</div>
+            </div>
         </div>
     </div>
 
