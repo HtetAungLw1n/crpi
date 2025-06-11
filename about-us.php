@@ -100,7 +100,7 @@
                     <img src="../icons/search-white.svg" alt="search" class="search-trigger h-6" />
                     <div class="absolute top-1/2 right-48 flex bg-white p-4 rounded-lg search-input"
                         style="transform: translateY(-50%)">
-                        <input type="text" class="outline-none w-full" placeholder="Search.." />
+                        <input type="text" class="outline-none w-full text-black" placeholder="Search.." />
                         <img src="../icons/Vector.svg" alt="search" class="search-close cursor-pointer" />
                     </div>
                 </div>
@@ -110,21 +110,21 @@
 
     <div class="bg-deep-blue font-playfair pt-40 pb-20 text-white text-center">
         <div class="text-4xl font-bold mb-2">About Us</div>
-        <div class="text-xl">Home > About Us</div>
+        <div class="text-xl font-notoserif">Home > About Us</div>
     </div>
 </section>
 <!-- hero section  -->
 
 <!-- main  -->
 <section>
-    <div class="container mx-auto p-10 font-playfair">
+    <div class="container mx-auto p-10 font-notoserif">
         <div class="flex md:flex-row flex-col justify-between gap-10">
             <div class="flex flex-col md:w-1/2">
-                <div class="text-3xl font-bold">About CRPI</div>
+                <div class="text-3xl font-bold font-playfair">About CRPI</div>
                 <div class="text-2xl mt-4">
                     About Center for Research, Policy and Innovation
                 </div>
-                <div class="mt-8 text-lg indent-8 text-justify">
+                <div class="mt-8 text-lg indent-8 text-justify ">
                     The Center for Research, Policy and Innovation (CRPI) promotes
                     collaborative research and action projects with local researchers,
                     Burmese scholars, international colleagues, and stakeholders
@@ -149,7 +149,7 @@
         </div>
 
         <div class="text-lg">
-            <div class="text-2xl text-deep-blue font-bold mt-12">
+            <div class="text-2xl text-deep-blue font-bold mt-12 font-playfair">
                 CRPI Partners and Collaborators
             </div>
             <div class="my-4">

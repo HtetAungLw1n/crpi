@@ -100,7 +100,7 @@
                     <img src="../icons/search-white.svg" alt="search" class="search-trigger h-6" />
                     <div class="absolute top-1/2 right-48 flex bg-white p-4 rounded-lg search-input"
                         style="transform: translateY(-50%)">
-                        <input type="text" class="outline-none w-full" placeholder="Search.." />
+                        <input type="text" class="outline-none w-full text-black" placeholder="Search.." />
                         <img src="../icons/Vector.svg" alt="search" class="search-close cursor-pointer" />
                     </div>
                 </div>
@@ -110,7 +110,8 @@
 
     <div class="bg-deep-blue font-playfair pt-40 pb-20 text-white text-center">
         <div class="text-4xl font-bold mb-2">Events</div>
-        <div class="text-xl">Home > Events > Call for Papers – 3rd Spring Flowers International Conference on Myanmar
+        <div class="text-xl font-notoserif">Home > Events > Call for Papers – 3rd Spring Flowers International
+            Conference on Myanmar
         </div>
     </div>
 </section>
@@ -125,7 +126,7 @@
     <div class="flex items-start flex-col lg:flex-row gap-4 h-fit lg:h-[90vh] mt-8">
         <div class="flex flex-col gap-4 w-full lg:w-[70%] h-full">
             <img src="./images/event-detail.png" alt="photo" class="h-[91%] w-full object-cover rounded-lg">
-            <button class="w-full rounded-lg text-center bg-deep-blue py-4 text-white font-playfair text-xl">Download
+            <button class="w-full rounded-lg text-center bg-deep-blue py-4 text-white font-notoserif text-xl">Download
                 Call for Papers in PDF
                 format here →</button>
         </div>
@@ -135,48 +136,48 @@
                 <img src="./icons/star.svg" alt="star">
             </div>
 
-            <div class="flex flex-col justify-between h-[94%] p-4">
+            <div class="flex flex-col justify-between h-[94%] p-4 font-notoserif">
 
                 <div class="flex items-center border-b-2 border-gray-200 py-4 gap-4">
                     <img src="./icons/calendar-deep-blue.svg" alt="calendar-deep-blue">
                     <div class="flex flex-col">
                         <p class="text-lg font-semibold">Start Date:</p>
-                        <p>February 7, 2024 - 8:00 am</p>
+                        <p class="text-gray-400">February 7, 2024 - 8:00 am</p>
                     </div>
                 </div>
                 <div class="flex items-center border-b-2 border-gray-200 py-4 gap-4">
                     <img src="./icons/calendar-deep-blue.svg" alt="calendar-deep-blue">
                     <div class="flex flex-col">
                         <p class="text-lg font-semibold">End Date:</p>
-                        <p>February 10, 2024 - 11:30 pm</p>
+                        <p class="text-gray-400">February 10, 2024 - 11:30 pm</p>
                     </div>
                 </div>
                 <div class="flex items-center border-b-2 border-gray-200 py-4 gap-4">
                     <img src="./icons/organizer.svg" alt="calendar-deep-blue">
                     <div class="flex flex-col">
                         <p class="text-lg font-semibold">Orgainzer</p>
-                        <p>Center for Research, Policy and Innovation</p>
+                        <p class="text-gray-400">Center for Research, Policy and Innovation</p>
                     </div>
                 </div>
                 <div class="flex items-center border-b-2 border-gray-200 py-4 gap-4">
                     <img src="./icons/event-category.svg" alt="event-category">
                     <div class="flex flex-col">
                         <p class="text-lg font-semibold">Event Category</p>
-                        <p>Research and Scholarships</p>
+                        <p class="text-gray-400">Research and Scholarships</p>
                     </div>
                 </div>
                 <div class="flex items-center border-b-2 border-gray-200 py-4 gap-4">
                     <img src="./icons/event-category.svg" alt="event-category">
                     <div class="flex flex-col">
                         <p class="text-lg font-semibold">Event Tags</p>
-                        <p>February 7, 2024 - 8:00 am</p>
+                        <p class="text-gray-400">February 7, 2024 - 8:00 am</p>
                     </div>
                 </div>
                 <div class="flex items-center py-4 gap-4">
                     <img src="./icons/location.svg" alt="location">
                     <div class="flex flex-col">
                         <p class="text-lg font-semibold">Venue</p>
-                        <p>University of IndianapolisIN United States </p>
+                        <p class="text-gray-400">University of IndianapolisIN United States </p>
                     </div>
                 </div>
 
@@ -187,7 +188,7 @@
     </div>
 
     <!-- text area  -->
-    <div class="w-full mt-10">
+    <div class="w-full mt-10 font-notoserif">
         <p class="mb-4">The Center for Research, Policy and Innovation (CRPI), in collaboration with its partners, is
             organizing an
             international conference with the objectives of:</p>
@@ -246,7 +247,7 @@
     </div>
 
     <!-- form  -->
-    <div class="bg-[#F5F5F5] w-full rounded-2xl shadow-xl mt-10 p-10 lg:p-20">
+    <div class="bg-[#F5F5F5] w-full rounded-2xl shadow-xl mt-10 p-10 lg:p-20 font-notoserif">
 
         <form action="upload.php" method="POST" enctype="multipart/form-data">
 

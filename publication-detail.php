@@ -100,7 +100,7 @@
                     <img src="../icons/search-white.svg" alt="search" class="search-trigger h-6" />
                     <div class="absolute top-1/2 right-48 flex bg-white p-4 rounded-lg search-input"
                         style="transform: translateY(-50%)">
-                        <input type="text" class="outline-none w-full" placeholder="Search.." />
+                        <input type="text" class="outline-none w-full text-black" placeholder="Search.." />
                         <img src="../icons/Vector.svg" alt="search" class="search-close cursor-pointer" />
                     </div>
                 </div>
@@ -110,7 +110,8 @@
 
     <div class="bg-deep-blue font-playfair pt-40 pb-20 text-white text-center">
         <div class="text-4xl font-bold mb-2">Publication</div>
-        <div class="text-xl">Home > Publication > Publication - Center for Research, Policy and Innovation (CRPI)</div>
+        <div class="text-xl font-notoserif">Home > Publication > Publication - Center for Research, Policy and
+            Innovation (CRPI)</div>
     </div>
 </section>
 <!-- hero section  -->
@@ -150,9 +151,9 @@
     </div>
 
     <!-- second text-area  -->
-    <div class="font-playfair border-b-2 border-gray-300 pb-16">
+    <div class="font-notoserif border-b-2 border-gray-300 pb-16">
         <!-- paragraph -->
-        <div class="mt-8">
+        <div class="mt-8 ">
             <div class="indent-4">
                 The Burmese American Community Institute (BACI) is a dynamic, forward-looking, and growing organization.
                 We
@@ -175,7 +176,7 @@
 
         <!-- qualifications -->
         <div>
-            <div class="text-[#5273FA] my-6 mt-10 text-2xl font-semibold">Key Features</div>
+            <div class="text-[#5273FA] my-6 mt-10 text-2xl font-semibold font-playfair">Key Features</div>
             <ul class="list-outside list-disc pl-6">
                 <li>Current faculty member at a University, Graduate student, doctoral degree, advanced or terminal
                     degree preferred (College Senior may be considered).</li>

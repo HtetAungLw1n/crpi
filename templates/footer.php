@@ -4,7 +4,7 @@
             <!-- Left Column -->
             <div>
                 <h3 class="text-2xl font-bold mb-4">CRPI</h3>
-                <ul class="space-y-2 text-base font-playfair">
+                <ul class="space-y-2 text-base font-notoserif">
                     <li class="hover:text-slate-300">
                         <a href="/academic-papers">Academic Papers</a>
                     </li>
@@ -33,7 +33,7 @@
             <!-- Center Column -->
             <div>
                 <h3 class="text-2xl font-bold mb-4">Conference</h3>
-                <ul class="space-y-2 text-base font-playfair">
+                <ul class="space-y-2 text-base font-notoserif">
                     <li class="hover:text-slate-300">
                         <a href="/conference-schedule">Conference Schedule</a>
                     </li>

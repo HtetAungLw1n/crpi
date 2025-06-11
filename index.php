@@ -9,20 +9,21 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        "deep-blue": "#00295C",
-                    },
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    "deep-blue": "#00295C",
+                },
 
-                    fontFamily: {
-                        poppins: ["Poppins", "sans-serif"],
-                        playfair: ["Playfair Display", "serif"],
-                    },
+                fontFamily: {
+                    poppins: ["Poppins", "sans-serif"],
+                    playfair: ["Playfair Display", "serif"],
+                    notoserif: ["Noto Serif", "serif"]
                 },
             },
-        };
+        },
+    };
     </script>
 </head>
 
@@ -148,7 +149,7 @@
                         <img src="./icons/Vector.svg" alt="search" class="search-trigger" />
                         <div class="absolute top-1/2 right-48 flex bg-white p-4 rounded-lg search-input"
                             style="transform: translateY(-50%)">
-                            <input type="text" class="outline-none w-full" placeholder="Search.." />
+                            <input type="text" class="outline-none w-full text-black" placeholder="Search.." />
                             <img src="./icons/Vector.svg" alt="search" class="search-close cursor-pointer" />
                         </div>
                     </div>
@@ -177,7 +178,7 @@
             <div class="text-2xl md:text-4xl font-bold text-balance">
                 Welcome to Center for Research, Policy and Innovation (CRPI)
             </div>
-            <div class="my-10 line-clamp-5 text-sm md:text-lg text-justify font-semibold">
+            <div class="my-10 line-clamp-5 text-sm md:text-lg text-justify font-semibold font-notoserif">
                 The Center for Research, Policy and Innovation (CRPI) promotes
                 collaborative research and action projects with local researchers,
                 Burmese scholars, international colleagues, and stakeholders engaged
@@ -222,7 +223,7 @@
                         <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2">
                             Summer intensive policy action research project
                         </div>
-                        <div class="line-clamp-4 text-base md:text-lg mt-4">
+                        <div class="line-clamp-4 text-base md:text-lg mt-4 font-notoserif">
                             In this program, researchers and scholars will participate in
                             intensive scientific group research projects primarily utilizing
                             participatory action research (PAR) methodology. In consultation
@@ -253,7 +254,7 @@
                         <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2">
                             Summer intensive policy action research project
                         </div>
-                        <div class="line-clamp-4 text-base md:text-lg mt-4">
+                        <div class="line-clamp-4 text-base md:text-lg mt-4 font-notoserif">
                             In this program, researchers and scholars will participate in
                             intensive scientific group research projects primarily utilizing
                             participatory action research (PAR) methodology. In consultation
@@ -283,7 +284,7 @@
                         <div class="text-deep-blue text-xl md:text-2xl font-bold mt-2">
                             Summer intensive policy action research project
                         </div>
-                        <div class="line-clamp-4 text-base md:text-lg mt-4">
+                        <div class="line-clamp-4 text-base md:text-lg mt-4 font-notoserif">
                             In this program, researchers and scholars will participate in
                             intensive scientific group research projects primarily utilizing
                             participatory action research (PAR) methodology. In consultation
@@ -321,7 +322,7 @@
         <div class="container">
             <div>
                 <div class="text-3xl md:text-4xl">Publications</div>
-                <div class="text-center text-base md:text-lg mt-8">
+                <div class="text-center text-base md:text-lg mt-8 font-notoserif">
                     Researchers from the Center for Research, Policy and Innovation
                     (CRPI) presented their research findings and solution-oriented
                     policy action recommendations as the culmination of intensive
@@ -367,7 +368,7 @@
         <div class="container">
             <div class="text-center">
                 <div class="text-3xl md:text-4xl">Upcoming Events</div>
-                <div class="text-center text-base md:text-lg mt-8 line-clamp-2">
+                <div class="text-center text-base md:text-lg mt-8 line-clamp-2 font-notoserif">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                     ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -499,7 +500,7 @@
             <h2 class="text-2xl md:text-4xl font-playfair font-bold">
                 Subscribe to Our Newsletter
             </h2>
-            <p class="text-sm md:text-base mt-8 max-w-xl mx-auto font-playfair">
+            <p class="text-sm md:text-base mt-8 max-w-xl mx-auto font-notoserif">
                 Subscribe for our weekly newsletter to get latest news, updates and
                 amazing offers delivered directly in your inbox.
             </p>
@@ -521,7 +522,7 @@
             <!-- Left Column -->
             <div>
                 <h3 class="text-2xl font-bold mb-4">CRPI</h3>
-                <ul class="space-y-2 text-base font-playfair">
+                <ul class="space-y-2 text-base font-notoserif">
                     <li class="hover:text-slate-300">
                         <a href="/academic-papers">Academic Papers</a>
                     </li>
@@ -550,7 +551,7 @@
             <!-- Center Column -->
             <div>
                 <h3 class="text-2xl font-bold mb-4">Conference</h3>
-                <ul class="space-y-2 text-base font-playfair">
+                <ul class="space-y-2 text-base font-notoserif">
                     <li class="hover:text-slate-300">
                         <a href="/conference-schedule">Conference Schedule</a>
                     </li>
