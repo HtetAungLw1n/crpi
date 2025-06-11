@@ -22,7 +22,7 @@
 
                 <!-- program navbar with dropdown  -->
                 <div
-                    class="dropdown px-10 text-xl h-full flex items-center hover:bg-white hover:text-black hover:text-black transition duration-500 ease-in-out">
+                    class="dropdown px-10 text-xl h-full flex items-center hover:bg-white hover:text-black transition duration-500 ease-in-out">
                     <a href="/programs.php" class="flex items-center gap-4">
                         Programs <img src="./icons/arrow-down.svg" alt="arrow-down" />
                     </a>

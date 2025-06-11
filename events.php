@@ -51,7 +51,7 @@ $startDay = date('w', $firstDayOfMonth);
 
                 <!-- program navbar with dropdown  -->
                 <div
-                    class="dropdown px-10 text-xl h-full flex items-center hover:bg-white hover:text-black hover:text-black transition duration-500 ease-in-out">
+                    class="dropdown px-10 text-xl h-full flex items-center hover:bg-white hover:text-blacktransition duration-500 ease-in-out">
                     <a href="/programs.php" class="flex items-center gap-4">
                         Programs <img src="./icons/arrow-down.svg" alt="arrow-down" />
                     </a>
@@ -528,7 +528,7 @@ $startDay = date('w', $firstDayOfMonth);
                         </div>
                     </div>
                     <div class="text-deep-blue text-xl md:text-2xl font-bold font-playfair mt-4">
-                        Call for Papers – 3rd Spring Flowers International Conference
+                        Call for Papers - 3rd Spring Flowers International Conference
                         on Myanmar
                     </div>
                 </div>
