@@ -68,7 +68,7 @@
     <div id="mobile-menu"
         class="fixed inset-0 bg-black bg-opacity-60 z-50 hidden flex-col transition-opacity duration-300">
         <div id="mobile-menu-panel"
-            class="bg-white w-full h-full p-8 flex flex-col gap-6 font-poppins relative fixed left-0 top-0 transform translate-x-full transition-transform duration-300 ease-in-out">
+            class="bg-white w-full h-full p-8 flex flex-col gap-6 font-poppins fixed left-0 top-0 transform translate-x-full transition-transform duration-300 ease-in-out">
             <button id="close-mobile-menu" class="absolute top-4 right-4 text-3xl text-deep-blue">
                 &times;
             </button>
