@@ -8,8 +8,6 @@ document.getElementById('calendar').addEventListener('click', e => {
 })
 
 const btns = document.querySelectorAll('.calendarBtn');
-console.log(btns);
-
 
 btns.forEach(btn => {
     btn.addEventListener('click', e => {

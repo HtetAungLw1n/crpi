@@ -142,6 +142,6 @@
 </section>
 <!-- main  -->
 
-<img src="./images/Basemap.png" alt="map" class="w-full mt-10 md:mt-20">
+<img src="./images/basemap.png" alt="map" class="w-full mt-10 md:mt-20">
 
 <?php include './templates/footer.php'; ?>

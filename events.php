@@ -202,10 +202,10 @@ $startDay = date('w', $firstDayOfMonth);
 
                         <!-- Days (example) -->
                         <?php
-                for ($i = 1; $i <= 31; $i++) {
-                    echo "<div class='h-10 w-10 flex items-center justify-center hover:bg-deep-blue hover:text-white cursor-pointer rounded-full'>$i</div>";
-                }
-                ?>
+                        for ($i = 1; $i <= 31; $i++) {
+                            echo "<div class='h-10 w-10 flex items-center justify-center hover:bg-deep-blue hover:text-white cursor-pointer rounded-full'>$i</div>";
+                        }
+                        ?>
                     </div>
                 </div>
             </div>
@@ -542,5 +542,5 @@ $startDay = date('w', $firstDayOfMonth);
     <?php include './templates/pagination.php'; ?>
 </section>
 <!-- main -->
-
+<script src="../assets/js/toggleCalendar.js"></script>
 <?php include './templates/footer.php'; ?>

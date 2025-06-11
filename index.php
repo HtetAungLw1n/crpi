@@ -9,20 +9,20 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-    tailwind.config = {
-        theme: {
-            extend: {
-                colors: {
-                    "deep-blue": "#00295C",
-                },
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "deep-blue": "#00295C",
+                    },
 
-                fontFamily: {
-                    poppins: ["Poppins", "sans-serif"],
-                    playfair: ["Playfair Display", "serif"],
+                    fontFamily: {
+                        poppins: ["Poppins", "sans-serif"],
+                        playfair: ["Playfair Display", "serif"],
+                    },
                 },
             },
-        },
-    };
+        };
     </script>
 </head>
 
