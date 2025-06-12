@@ -144,19 +144,20 @@
         <div class="bg-[#D5D5D5] p-8 rounded-lg w-full mt-8 space-y-2">
             <div class="flex lg:items-center items-start">
                 <div class="w-1/2 lg:w-52">Hours</div>
-                <div class="w-1/2">: Full-time or part-time</div>
+                <div class="w-1/2"><span class="mr-4">:</span>Full-time or part-time</div>
             </div>
             <div class="flex lg:items-center items-start">
                 <div class="w-1/2 lg:w-52">Duration</div>
-                <div class="w-1/2">: Summer 2023 (With the possibility of continuation to Fall 2023 and beyond)</div>
+                <div class="w-1/2"><span class="mr-4">:</span>Summer 2023 (With the possibility of continuation to Fall
+                    2023 and beyond)</div>
             </div>
             <div class="flex lg:items-center items-start">
                 <div class="w-1/2 lg:w-52">Pay</div>
-                <div class="w-1/2">: Stipend; negotiable</div>
+                <div class="w-1/2"><span class="mr-4">:</span>Stipend; negotiable</div>
             </div>
             <div class="flex lg:items-center items-start">
                 <div class="w-1/2 lg:w-52">Project Primary Site</div>
-                <div class="w-1/2">: Virtual</div>
+                <div class="w-1/2"><span class="mr-4">:</span>Virtual</div>
             </div>
 
         </div>
