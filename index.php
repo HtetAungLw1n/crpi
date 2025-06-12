@@ -83,20 +83,22 @@
                                 </h2>
                                 <div class="grid grid-cols-3 mt-8 gap-8">
                                     <div class="flex flex-col gap-8">
-                                        <a href="#" class="hover:text-deep-blue">Research</a>
+                                        <a href="/research.php" class="hover:text-deep-blue">Research</a>
                                         <a href="#" class="hover:text-deep-blue">Academic Papers</a>
                                     </div>
                                     <div class="flex flex-col gap-8">
                                         <a href="#" class="hover:text-deep-blue">Analysis</a>
-                                        <a href="#" class="hover:text-deep-blue">
+                                        <a href="/center-for-holistic.php" class="hover:text-deep-blue">
                                             Center for Holistic International Human Rights Law
                                             Praxis
                                         </a>
                                     </div>
                                     <div class="flex flex-col gap-8">
-                                        <a href="#" class="hover:text-deep-blue">Center for Land and Natural Resources
+                                        <a href="/center-for-land-and-natural-resources-policy.php"
+                                            class="hover:text-deep-blue">Center for Land and Natural Resources
                                             Policy</a>
-                                        <a href="#" class="hover:text-deep-blue">Center for Constitution & Democratic
+                                        <a href="/center-of-constitution.php" class="hover:text-deep-blue">Center for
+                                            Constitution & Democratic
                                             Governance</a>
                                     </div>
                                 </div>
@@ -121,17 +123,27 @@
                                 </h2>
                                 <div class="grid grid-cols-3 mt-8 gap-8">
                                     <div class="flex flex-col gap-8">
-                                        <a href="#" class="hover:text-deep-blue">Arts and Humanities, Public Health</a>
-                                        <a href="#" class="hover:text-deep-blue">Development and Economic
+                                        <a href="/arts-and-humanities-public-health.php"
+                                            class="hover:text-deep-blue">Arts and
+                                            Humanities, Public Health</a>
+                                        <a href="/development-and-economic.php" class="hover:text-deep-blue">Development
+                                            and
+                                            Economic
                                         </a>
                                     </div>
                                     <div class="flex flex-col gap-8">
-                                        <a href="#" class="hover:text-deep-blue">Education, Human Rights, and Gender</a>
-                                        <a href="#" class="hover:text-deep-blue">Environment, and Engineering</a>
+                                        <a href="/education-human-rights-gender.php"
+                                            class="hover:text-deep-blue">Education,
+                                            Human Rights, and Gender</a>
+                                        <a href="/environment-engineering.php" class="hover:text-deep-blue">Environment,
+                                            and
+                                            Engineering</a>
                                     </div>
                                     <div class="flex flex-col gap-8">
-                                        <a href="#" class="hover:text-deep-blue">Public Policy, Law and Diplomacy</a>
-                                        <a href="#" class="hover:text-deep-blue">Others</a>
+                                        <a href="/public-policy-law-and-diplomacy.php"
+                                            class="hover:text-deep-blue">Public
+                                            Policy, Law and Diplomacy</a>
+                                        <a href="/other.php" class="hover:text-deep-blue">Others</a>
                                     </div>
                                 </div>
                             </div>

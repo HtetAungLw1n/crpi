@@ -6,8 +6,8 @@
     <?php include './templates/second-nav.php' ?>
 
     <div class="bg-deep-blue font-playfair py-16 text-white text-center">
-        <div class="text-4xl font-bold mb-4">Publication</div>
-        <div class="text-xl font-notoserif">Home > Publication</div>
+        <div class="text-4xl font-bold mb-4">Development and Economic</div>
+        <div class="text-xl font-notoserif">Home > Publication > Development and Economic</div>
     </div>
 </section>
 <!-- hero section  -->
@@ -16,7 +16,7 @@
 <section class="container mx-auto px-4 md:px-0 py-20">
     <div class="flex gap-10 justify-center items-start px-20 h-[40vh]">
         <div class="font-notoserif ">
-            <div class="font-playfair text-4xl font-bold text-deep-blue">Publication</div>
+            <div class="font-playfair text-4xl font-bold text-deep-blue">Development and Economic</div>
             <div class="text-lg mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur aperiam
                 laboriosam
                 labore. In
