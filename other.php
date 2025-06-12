@@ -14,7 +14,7 @@
 
 <!-- first section  -->
 <section class="container mx-auto px-4 md:px-0 py-20">
-    <div class="flex gap-10 justify-center items-start px-20 h-[40vh]">
+    <div class="flex flex-col lg:flex-row gap-10 justify-center items-start lg:px-20 h-fit lg:h-[40vh]">
         <div class="font-notoserif ">
             <div class="font-playfair text-4xl font-bold text-deep-blue">Others</div>
             <div class="text-lg mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur aperiam
@@ -30,12 +30,13 @@
 </section>
 <!-- first section  -->
 
+
 <!-- dropsdown  -->
-<section class="h-[25vh] bg-deep-blue">
+<section class="h-fit lg:h-[25vh] bg-deep-blue">
     <div class="container flex justify-center items-center gap-20 mx-auto ">
 
-        <div class="flex gap-10 items-center w-full p-10">
-            <div class=" flex flex-col w-1/3">
+        <div class="flex flex-col lg:flex-row gap-10 items-center w-full lg:p-10 py-10">
+            <div class=" flex flex-col lg:w-1/3">
                 <div class="relative">
                     <label for="dummy1" class="block mb-2 text-2xl text-white font-semibold font-playfari">dummy</label>
                     <select id="dummy1" class="appearance-none w-full px-10 py-4 rounded-full text-gray-800">
@@ -59,7 +60,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-1/3">
+            <div class="flex flex-col lg:w-1/3">
                 <div class="relative">
                     <label for="dummy1" class="block mb-2 text-2xl text-white font-semibold font-playfari">dummy</label>
                     <select id="dummy1" class="appearance-none w-full px-10 py-4 rounded-full text-gray-800">
@@ -82,7 +83,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-1/3">
+            <div class="flex flex-col lg:w-1/3">
                 <div class="relative">
                     <label for="dummy1" class="block mb-2 text-2xl text-white font-semibold font-playfari">dummy</label>
                     <select id="dummy1" class="appearance-none w-full px-10 py-4 rounded-full text-gray-800">
@@ -108,14 +109,15 @@
         </div>
 
     </div>
-    <button class="text-white container mx-auto flex justify-end w-full pr-10 hover:text-slate-100">
+    <button
+        class="text-white container mx-auto flex justify-start pb-10 lg:pb-0 pl-20 md:pl-0 md:justify-center lg:justify-end w-full lg:pr-10 hover:text-slate-100">
         <div class="text-xl font-bold  font-poppins mr-4">Apply</div> <img src="./icons/arrow-right.svg" alt="">
     </button>
 </section>
 <!-- dropsdown  -->
 
 <section class="container mx-auto px-4 md:px-0 py-20">
-    <div class="grid grid-cols-4 gap-10 px-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-0 md:px-20">
         <!-- card  -->
         <a href="" class="group hover:cursor-pointer shadow-md hover:shadow-xl transition duration-200 ease-in-out">
             <!-- img -->
