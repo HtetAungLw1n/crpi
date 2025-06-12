@@ -1,6 +1,6 @@
  <!-- Related News & Programs -->
  <div>
-     <div class="text-4xl font-bold font-playfair mt-8">Related News & Programs</div>
+     <div class="text-2xl lg:text-4xl font-bold font-playfair mt-8">Related News & Programs</div>
 
      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-8">
          <a href="/programs-3"
