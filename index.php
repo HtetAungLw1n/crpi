@@ -174,7 +174,7 @@
         </div>
 
         <div
-            class="absolute top-52 md:top-56 md:left-20 lg:left-44 bg-deep-blue text-white md:text-black md:bg-white/75 md:w-[80%] lg:w-[40%] p-8 md:p-16 rounded-3xl font-playfair">
+            class="absolute top-52 md:top-40 md:left-20 lg:top-40 lg:left-44 bg-deep-blue text-white md:text-black md:bg-white/75 md:w-[80%] lg:w-[50%] xl:w-[40%] p-8 md:p-16 rounded-3xl font-playfair">
             <div class="text-2xl md:text-4xl font-bold text-balance">
                 Welcome to Center for Research, Policy and Innovation (CRPI)
             </div>
@@ -197,7 +197,7 @@
     <!-- hero section  -->
 
     <!-- Latest News and Programs  -->
-    <section class="w-full px-8 py-10 md:py-20 md:px-0 font-playfair">
+    <section class="w-full px-8 py-10 md:py-20 md:px-4 font-playfair">
         <div class="text-center text-3xl md:text-4xl font-playfair font-bold">
             Lates News and Programs
         </div>
@@ -318,7 +318,7 @@
 
     <!-- Publication  -->
     <section
-        class="py-20 px-8 md:px-0 font-playfair flex justify-center items-center bg-deep-blue text-white text-center">
+        class="py-20 px-8 md:px-4 font-playfair flex justify-center items-center bg-deep-blue text-white text-center">
         <div class="container">
             <div>
                 <div class="text-3xl md:text-4xl">Publications</div>
@@ -364,7 +364,7 @@
     <!-- Publication  -->
 
     <!-- upcoming events  -->
-    <section class="py-20 px-8 md:px-0 font-playfair flex justify-center items-center">
+    <section class="py-20 px-8 md:px-4 font-playfair flex justify-center items-center">
         <div class="container">
             <div class="text-center">
                 <div class="text-3xl md:text-4xl">Upcoming Events</div>
@@ -495,7 +495,7 @@
     <!-- upcoming events  -->
 
     <!-- Newsletter Section -->
-    <section class="bg-deep-blue text-white text-center py-10 md:py-20 px-8 md:px-0">
+    <section class="bg-deep-blue text-white text-center py-10 md:py-20 px-8 md:px-4">
         <div class="container mx-auto">
             <h2 class="text-2xl md:text-4xl font-playfair font-bold">
                 Subscribe to Our Newsletter
