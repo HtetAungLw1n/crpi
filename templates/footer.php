@@ -19,7 +19,7 @@
                         <a href="/fellowship">Fellowship</a>
                     </li>
                     <li class="hover:text-slate-300">
-                        <a href="/programs">Programs</a>
+                        <a href="/programs.php">Programs</a>
                     </li>
                     <li class="hover:text-slate-300">
                         <a href="/scholarships">Scholarships</a>
@@ -35,13 +35,13 @@
                 <h3 class="text-2xl font-bold mb-4">Conference</h3>
                 <ul class="space-y-2 text-base font-notoserif">
                     <li class="hover:text-slate-300">
-                        <a href="/conference-schedule">Conference Schedule</a>
+                        <a href="/conferences-program-schedule.php">Conference Schedule</a>
                     </li>
                     <li class="hover:text-slate-300">
-                        <a href="/speakers">Speakers</a>
+                        <a href="/speaker.php">Speakers</a>
                     </li>
                     <li class="hover:text-slate-300">
-                        <a href="/registration">Registration</a>
+                        <a href="/registration.php">Registration</a>
                     </li>
                 </ul>
             </div>
@@ -82,13 +82,16 @@
                     <img src="./icons/arrow-down.svg" alt="arrow-down" class="ml-2 w-5 h-5" />
                 </button>
                 <div id="mobile-programs-dropdown" class="pl-4 mt-2 hidden flex-col gap-4">
-                    <a href="#" class="block py-1 text-base hover:text-slate-500">Research</a>
+                    <a href="/research.php" class="block py-1 text-base hover:text-slate-500">Research</a>
                     <a href="#" class="block py-1 text-base hover:text-slate-500">Academic Papers</a>
                     <a href="#" class="block py-1 text-base hover:text-slate-500">Analysis</a>
-                    <a href="#" class="block py-1 text-base hover:text-slate-500">Center for Holistic International
+                    <a href="/center-for-holistic.php" class="block py-1 text-base hover:text-slate-500">Center for
+                        Holistic International
                         Human Rights Law Praxis</a>
-                    <a href="#" class="block py-1 text-base">Center for Land and Natural Resources Policy</a>
-                    <a href="#" class="block py-1 text-base">Center for Constitution & Democratic Governance</a>
+                    <a href="/center-for-land-and-natural-resources-policy.php" class="block py-1 text-base">Center for
+                        Land and Natural Resources Policy</a>
+                    <a href="/center-of-constitution.php" class="block py-1 text-base">Center for Constitution &
+                        Democratic Governance</a>
                 </div>
             </div>
             <!-- Publications Dropdown (mobile) -->
@@ -99,13 +102,18 @@
                     <img src="./icons/arrow-down.svg" alt="arrow-down" class="ml-2 w-5 h-5" />
                 </button>
                 <div id="mobile-publications-dropdown" class="pl-4 mt-2 hidden flex-col gap-4">
-                    <a href="#" class="block py-1 text-base hover:text-slate-500">Arts and Humanities, Public Health</a>
-                    <a href="#" class="block py-1 text-base hover:text-slate-500">Development and Economic</a>
-                    <a href="#" class="block py-1 text-base hover:text-slate-500">Education, Human Rights, and
+                    <a href="/arts-and-humanities-public-health.php"
+                        class="block py-1 text-base hover:text-slate-500">Arts and Humanities, Public Health</a>
+                    <a href="/development-and-economic.php"
+                        class="block py-1 text-base hover:text-slate-500">Development and Economic</a>
+                    <a href="/education-human-rights-gender.php"
+                        class="block py-1 text-base hover:text-slate-500">Education, Human Rights, and
                         Gender</a>
-                    <a href="#" class="block py-1 text-base hover:text-slate-500">Environment, and Engineering</a>
-                    <a href="#" class="block py-1 text-base hover:text-slate-500">Public Policy, Law and Diplomacy</a>
-                    <a href="#" class="block py-1 text-base hover:text-slate-500">Others</a>
+                    <a href="/environment-engineering.php"
+                        class="block py-1 text-base hover:text-slate-500">Environment, and Engineering</a>
+                    <a href="/public-policy-law-and-diplomacy.php"
+                        class="block py-1 text-base hover:text-slate-500">Public Policy, Law and Diplomacy</a>
+                    <a href="/other.php" class="block py-1 text-base hover:text-slate-500">Others</a>
                 </div>
             </div>
             <a href="/events" class="text-xl py-2 border-b border-gray-200">Events</a>

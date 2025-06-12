@@ -315,7 +315,7 @@
 
             <!-- bay ka view all link  -->
             <div class="absolute right-0">
-                <a href="/programs"
+                <a href="/programs.php"
                     class="oklu relative pb-2 bottom-0 right-0 flex justify-between items-center gap-2 font-poppins text-deep-blue cursor-pointer group overflow-hidden">
                     <div>View All</div>
                     <div class="w-7 h-7 bg-deep-blue p-2 flex justify-center">
@@ -367,10 +367,10 @@
                     <div class="mt-8 text-2xl">CRPI summer 2022</div>
                 </div>
             </div>
-            <button
+            <a href="/publication.php"
                 class="text-white rounded-full bg-[#0063B4] font-poppins px-10 py-4 text-base md:text-lg hover-button mt-16">
                 See More
-            </button>
+            </a>
         </div>
     </section>
     <!-- Publication  -->
@@ -497,10 +497,10 @@
             </div>
 
             <div class="w-full flex justify-center items-center">
-                <button
+                <a href="./events.php"
                     class="text-white rounded-full bg-deep-blue font-poppins px-10 py-4 text-base md:text-lg hover-button mt-16">
                     View All
-                </button>
+                </a>
             </div>
         </div>
     </section>
@@ -544,12 +544,12 @@
                     <li class="hover:text-slate-300">
                         <a href="/conference">Conference</a>
                     </li>
-                    <li class="hover:text-slate-300"><a href="/events">Events</a></li>
+                    <li class="hover:text-slate-300"><a href="/events.php">Events</a></li>
                     <li class="hover:text-slate-300">
                         <a href="/fellowship">Fellowship</a>
                     </li>
                     <li class="hover:text-slate-300">
-                        <a href="/programs">Programs</a>
+                        <a href="/programs.php">Programs</a>
                     </li>
                     <li class="hover:text-slate-300">
                         <a href="/scholarships">Scholarships</a>
@@ -565,13 +565,13 @@
                 <h3 class="text-2xl font-bold mb-4">Conference</h3>
                 <ul class="space-y-2 text-base font-notoserif">
                     <li class="hover:text-slate-300">
-                        <a href="/conference-schedule">Conference Schedule</a>
+                        <a href="/conferences-program-schedule.php">Conference Schedule</a>
                     </li>
                     <li class="hover:text-slate-300">
-                        <a href="/speakers">Speakers</a>
+                        <a href="/speaker.php">Speakers</a>
                     </li>
                     <li class="hover:text-slate-300">
-                        <a href="/registration">Registration</a>
+                        <a href="/registration.php">Registration</a>
                     </li>
                 </ul>
             </div>
